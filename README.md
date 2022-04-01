@@ -1,5 +1,5 @@
 # FortyFiveDays
-It's a forty five day plan to brush up on my skills
+It's a forty five day plan to brush up on my skills. Let's go!
 
 <img src="https://i.imgflip.com/nypil.gif">
 
