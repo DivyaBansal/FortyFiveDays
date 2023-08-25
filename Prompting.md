@@ -1,3 +1,5 @@
+Tip: Ask the model to explain itself
+
 Example Prompting styles:
 
 # Prompt 1

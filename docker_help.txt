@@ -1,0 +1,38 @@
+Docker helps package dependencies for deployment
+
+# Python dockerfile example
+```
+# Use an official Python runtime as a parent image
+FROM python:3.9 
+
+# Set the working directory contents into the container at /app
+WORKDIR . /app
+
+# Copy the current working directory into the container
+ADD . /app
+
+# Install required packages
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
+
+# Expose port
+EXPOSE 80
+
+# Define environment variable
+ENV NAME World
+
+# Run app.py 
+CMD ["python", "app.py"]
+```
+----
+
+# To build:
+```
+$ docker build -t <name_of_image> <path_of_Dockerfile>
+$ docker run --name <container_name> <name_of_image>
+```
+---
+# Run Postgres example
+```
+$ docker run -ti --network=host --name local-postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+$ docker ps -aq | xargs docker stop | xargs docker rm
+```

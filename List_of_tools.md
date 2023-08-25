@@ -2,6 +2,13 @@
 - https://d2lang.com/
 - https://livingcharts.com/
 
+### Awesome libraries:
+- skrub:   
+  Help preparing tabular databases
+  -- transform columns
+  -- get relevant categories for textual columns
+  -- fuzzy_join tables
+
 ## Deep Learning:
 
 ### Data Annotation:
@@ -73,7 +80,7 @@
 - AWS Glue (Serverless)
 
 ## Infrastructure:
-
+ 
 ### Storage:
 - S3
 - git-lfs

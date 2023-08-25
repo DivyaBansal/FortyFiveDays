@@ -5,6 +5,9 @@
 2. Make it fast: profilling, remove bottlenecks, change precision (16-bit) etc.
 3. Make it right: scale model/data sticking with proven architectures
 
+Define baseline models
+Define edge cases
+
 Overfitting? scale data  
 Underfitting? scale model  
 Distributional Shift? scale data and model
@@ -70,7 +73,10 @@ Adjust to data distribution shift
 Most valuable signals to monitor (Descending order):
 1. Outcomes and feedback from users
 2. Model performance metrics
-3. Proxy metrics (correlated with bad model performance: repetitive outputs, toxic outputs etc.)
+3. Proxy metrics (correlated with bad model performance: repetitive outputs, toxic outputs, edge cases etc.)
 4. Data quality
 5. Distribution drift
 6. System metrics
+
+Other proxy metrics:
+Heuristics, human-in-the-loop, auxiliary models
