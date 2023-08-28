@@ -20,6 +20,9 @@ Bonds
 - A bond is a fixed income instrument that represents a loan made by an investor to a borrower such as- corporate or governmental.
 - Owner of bonds are the debt holders, or creditors of the issuer.
 - Bonds are tax-free, secured, redeemable and non-convertible in nature.
+- Bonda are backed by company assets
+- Debentures are debt instruments similar to bonds but are not backed by collateral/assets and hence, higher risk.
+
 
 Private Equity
 ---

@@ -19,6 +19,11 @@ Feature Engineering:
 3. Make existing columns into more useful than existing info
    - Example use NLP to get categories from text columns 
     
+Feature pipeline
+Training pipeline
+Inference Pipeline
+
+First always prepare baselines
 
 Clustering algos:
 PCA

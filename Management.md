@@ -6,6 +6,7 @@ Goal-setting. Things we want to change.
 Baseline health
 A quantifiable measure of performance over time for a specific objective
 
+SLAs: Service Level Agreements
 # Types of analytics
 1. Marketing Analytics
 2. Product Analytics

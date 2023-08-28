@@ -19,5 +19,5 @@ Index
 2. Knowledge Base
 - [List of Useful Tools](List_of_tools.md)
 - [Summary of AWS services](AWS_service_summary.md)
-- [Takeaways from Full Stack Deep Learning Course](Full_stack_deep_learning_takeaways.md)
+- [Takeaways from Full Stack Deep Learning Course](FSDL_takeaways.md)
 
