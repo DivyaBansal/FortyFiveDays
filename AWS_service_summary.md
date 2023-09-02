@@ -16,3 +16,9 @@ Ad-hoc query interface, run SQL queries on files stored in S3 buckets
 Process, analyze and store real-time data. Like Kafka.
 ## AWS DMS(Data Migration Service)
 For migration
+
+AWS EKS
+Elastic Kubernetes Service
+
+AWS Glacier
+For data archiving. cheap but high latency.

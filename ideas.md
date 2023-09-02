@@ -8,7 +8,8 @@
 7. Mortgage prepayment modelling
 
 # More ambitious ideas:
-1. AI that will skip unimportant parts of a lecture video such as intro, audience questions. 
+1. AI that will help skip unimportant parts of a lecture video such as intro and audience questions. 
+2. Debunk astrology with data science
 
 # For design/fashion:
 - Use Midjourney
