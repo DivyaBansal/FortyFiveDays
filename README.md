@@ -13,7 +13,7 @@ With boilerplate code templates and notes on fundamental concepts packed togethe
 Index
 ---
 1. Helpful code
-- [Some helpful functions for Exploratory Data Analysis](EDA_help.ipynb)
+- [Exploratory Data Analysis](EDA_help.ipynb)
 - [Web Scraping](web_scraping.ipynb)
 - [Utilities](utilities.ipynb)
 2. Knowledge Base
