@@ -52,6 +52,7 @@ If we are given a distribution of Y given X which is not gaussian say Poisson/Ze
 2. For irregularly shaped clusters and outliers: DBSCAN, OPTICS,  GMM, Spectral
 3. Homogenous data (no clusters): DBSCAN, OPTICS, Agglomerative
 
+Linear Discriminant Analysis (LDA) is a classification approach in which two or more groups have previously been identified, and fresh observations are categorized into one of them based on their features.
 # Evaluation
 ROC:
  TPR vs FPR
@@ -87,3 +88,16 @@ Inference Pipeline
 
 First always prepare baselines
 
+Apart from testing model performance on randomly held-out validation datasets, one should also consider robustness testing.
+For e.g. if a model predicts a tumor from an image, it should predict tumor even with a blurred/brightened/shifted image.
+
+ML systems often fail silently. Relevant bugs are subtle and challenging to find and don’t usually lead to a program ‘crashing’.
+
+DLFuzz: Differential Fuzzing Testing of Deep Learning Systems
+Focuses on the idea that problematic inputs tend to appear due to low neuron coverage in the trained system. New images that turn on a large subset of neurons that are not activated during training may then lead to unexpected model predictions. DLFuzz modifies input images to activate these rarely visited neurons in order to trigger such failures.
+
+DeepHunter: chooses a set of random transformations among a set that preserves image labels. This way, whether a newly generated fuzzy input decreases performance can be evaluated with the original image label. Indeed, if we modify an image by randomly rotating it and expect the labels to remain the same, we can compare the output of the system. The newly rotated images can be checked with the original image labels to decide if there is a failure.
+
+Metamorphic relations: established facts such that given a function f, and 2 data points x1 and x2, we know that
+f(x1) = f(x2)
+So even if we don't have labelling info(test oracle) for the two data points we can still test if this relationship holds.
