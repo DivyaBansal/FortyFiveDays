@@ -6,6 +6,7 @@
 5. Predicting domain shift/out-of-distribution perfomance/ model evaluation under Distribution Shift. [Reference](https://github.com/continuousml/Awesome-Out-Of-Distribution-Detection)  
 6. Start a missing semester blog for students of universities like TUM to augment practical/industry knowledge to academic/course knowledge 
 7. Mortgage prepayment modelling
+8. Brand Asset Valuator Modelling software
 
 # More ambitious ideas:
 1. AI that will help skip unimportant parts of a lecture video such as intro and audience questions. 

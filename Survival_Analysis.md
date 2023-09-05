@@ -9,11 +9,17 @@
 
 - `Y = min(T,C)`
 
-- Independent censoring vs dependent censoring: we need to take into account if the censoring is random or dependent on individual characteristics like males are more likely to dropout than females.
+- Independent censoring vs dependent censoring: we need to take into account if the censoring is random or dependent on individual characteristics like males are more likely to dropout than females. In this case we would do the survival analysis of males and females separately.
 
 - Survival function:
 	Probability that an instance can survive for longer than a certain time *t*
 	$$S(t) = Pr(T>=t)$$
+
+- Kaplan Meier Curve
+	S(t) vs t
+
+- Log rank test
+	
 
 - Cumulative Density function:
 	Probability that the event of interest occurs earlier than *t*
@@ -28,7 +34,8 @@
 
 - Cumulative hazard function:
 	$$ H(t) =\int_0^t h(u) \,du $$
-	 $$ Survival function,\: S(t) = exp(-H(t))$$
+	 Survival function
+	 $$ S(t) = exp(-H(t))$$
 
 - Special Evaluation Metrics:
 	- Concordance index (C-Index):

@@ -18,3 +18,4 @@ Set goals that are: Specific, Measurable, Achievable, Relevant and Time-bound
 3. Business Analytics
 
 Eisenhower Matrix: Prioritize tasks based on urgency and importance
+
