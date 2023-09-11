@@ -34,7 +34,7 @@
 - Caffe2
 
 ### Convert code from one framework to another e.g. PyTorch <-> Tensorflow:
-- Onnyx
+- Onnx
 
 ### Optimization:
 - Alibi (Sequence length warmup for NLP)

@@ -1,3 +1,6 @@
+# Terminology :
+- capability: A model's capability is typically evaluated by **how well it is able to optimize its objective function**, the mathematical expression that defines the goal of the model.
+- alignment: **What we actually want the model to do** versus what it is being trained to do.
 
 # Descriptive statistics:
 summarize dataset e.g. mean, median, std dev, visualizations
@@ -12,6 +15,7 @@ hypothesis testing
 
 
 # Missing data:
+Can we acquire more data for the underrepresented groups?
 Fuzzy matching records
 Data imputation
 
@@ -36,7 +40,7 @@ If we are given a distribution of Y given X which is not gaussian say Poisson/Ze
 2. Isolation Forest: Tree-based algorithm. Partitions data to isolate points. If we need many partitions to isolate a point, it is likely to be an inlier. On the other hand, if we need very few partitions it is likely an outlier.
 3. Local outlier factor: Density based. Based on reachability distance.
 4. Clustering
-
+5. LSTM Autoencoder anomaly detection: Use autoencoder to reconstruct input data, the datapoints for which the reconstruction error is very high are probably anomalies. 
 # Clustering
 - **Expectation Maximization:**  Data points are grouped based on the probability of belonging to either a normal or a gaussian distribution.
 
@@ -79,6 +83,12 @@ Types of biases:
 	- Sampling bias
 4. Group attribution and bias: generalizing what is true for individual data points to the group they belong to.
 5. Implicit bias: occurs when assumptions are made based on one's own mental models and personal experiences that do not necessarily apply more generally. E.g. confirmation bias, where model builders unconsciously process data and train models in ways that affirm preexisting beliefs and hypotheses.
+
+Some important questions to investigate when auditing a dataset for fairness:
+- **Are there missing feature values for a large number of observations?**
+- **Are there features that are missing that might affect other features?**
+- **Are there any unexpected feature values?**
+- **What signs of data skew do you see?**
 
 # Best Practices
 Structure:

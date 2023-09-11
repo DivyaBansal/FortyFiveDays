@@ -14,3 +14,12 @@
 
 # For design/fashion:
 - Use Midjourney
+
+Popular Features that are dumb:
+
+- Leetcode solution time comparison: 1 moment your solution beats 92% solutions, the other only 20%
+
+- Many LinkedIn Premium Features: 
+	- You as a newbie software engineer would be a top applicant in a job role for an experienced architect with 200 applicants already?!
+	- 60% of the applicants have a masters degree, 5 people applied from Munich, helps nobody
+	- 
